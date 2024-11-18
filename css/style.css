@@ -1,0 +1,40 @@
+:root {
+    --bg-block: #038087;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+body {
+    padding: 10px;
+    background-image: url(../img/colori-vibranti-super-luminosi-che-perdono-lo-sfondo-di-lusso-della-pittura_88135-40129.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.centred {
+    text-align: center;
+}
+
+span {
+    color: white;
+}
+
+.emailContainer {
+    background-color: var(--bg-block);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
