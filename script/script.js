@@ -27,3 +27,6 @@ function generaEmails() {
             console.error("Errore recuper mail:", error);
         });
 }
+
+//Esecuzione ad apertura pagina:
+window.onload = generaEmails;
